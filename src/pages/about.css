@@ -1,0 +1,253 @@
+/* About.css */
+.about-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Hero Section */
+  .about-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+                url('ChatGPT Image Aug 28, 2025, 03_22_28 PM.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+  }
+  
+  .hero-content span {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white
+  }
+  
+  .hero-content i {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+  }
+  
+  /* History Section */
+  .about-history {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+  }
+  
+  .history-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .history-text {
+    flex: 1;
+  }
+  
+  .history-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  .history-text p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.8;
+  }
+  
+  .history-image {
+    flex: 1;
+  }
+  
+  .history-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Team Section */
+  .about-team {
+    padding: 4rem 0;
+  }
+  
+  .about-team h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  .team-intro {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    font-size: 1.1rem;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .team-member {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+  }
+  
+  .member-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .team-member h3 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+  }
+  
+  .member-role {
+    color: #e67e22;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .member-desc {
+    font-size: 0.95rem;
+  }
+  
+  /* Values Section */
+  .about-values {
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+  }
+  
+  .about-values h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .value-item {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .value-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .value-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .value-item h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+  }
+  
+  /* Visit Us Section */
+  .about-visit {
+    padding: 4rem 0;
+  }
+  
+  .about-visit h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+  }
+  
+  .visit-content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  .visit-info {
+    flex: 1;
+  }
+  
+  .visit-info h3 {
+    color: #2c3e50;
+    margin: 1.5rem 0 0.5rem;
+  }
+  
+  .visit-info h3:first-child {
+    margin-top: 0;
+  }
+  
+  .visit-info p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .visit-image {
+    flex: 1;
+  }
+  
+  .visit-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-content h1 {
+      font-size: 2rem;
+    }
+    
+    .hero-content p {
+      font-size: 1.1rem;
+    }
+    
+    .history-content,
+    .visit-content {
+      flex-direction: column;
+      gap: 2rem;
+    }
+    
+    .team-grid,
+    .values-grid {
+      grid-template-columns: 1fr;
+    }
+  }
