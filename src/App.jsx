@@ -10,7 +10,7 @@ import Checkout from './components/Checkout';
 import Shop from './pages/Shop';
 import About from './pages/about';
 import Contact from './pages/contact';
-import Footer from './components/Footer';
+import Footer from './components/footer';
 
 
 function App() {
